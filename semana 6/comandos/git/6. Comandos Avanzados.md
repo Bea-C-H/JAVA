@@ -1,0 +1,46 @@
+
+---
+## 📌 **6. Comandos Avanzados**
+
+### 🔹 Guardar cambios temporalmente (stash)
+```bash
+git stash
+```
+👉 Guarda cambios sin confirmar en una pila temporal.
+
+### 🔹 Ver los cambios guardados en el stash
+```bash
+git stash list
+```
+👉 Muestra la lista de cambios guardados temporalmente.
+
+### 🔹 Aplicar los cambios guardados
+```bash
+git stash apply
+```
+👉 Restaura los cambios más recientes del stash.
+
+### 🔹 Eliminar un stash después de aplicarlo
+```bash
+git stash drop
+```
+👉 Borra el último stash después de aplicarlo.
+
+### 🔹 Rebasing: Reorganizar commits
+```bash
+git rebase main
+```
+👉 Reorganiza los commits de la rama actual sobre `main`.
+
+### 🔹 Buscar un commit específico
+```bash
+git log --grep="mensaje"
+```
+👉 Busca commits por mensaje.
+
+### 🔹 Ver qué rama contiene un commit
+```bash
+git branch --contains abc123
+```
+👉 Muestra las ramas donde está presente el commit `abc123`.
+

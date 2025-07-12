@@ -1,0 +1,35 @@
+
+---
+## 📌 **4. Trabajo con Repositorios Remotos**
+
+### 🔹 Agregar un repositorio remoto
+```bash
+git remote add origin https://github.com/usuario/repositorio.git
+```
+👉 Asocia el repositorio local con el remoto `origin`.
+
+### 🔹 Ver los repositorios remotos
+```bash
+git remote -v
+```
+👉 Muestra los repositorios remotos asociados.
+
+### 🔹 Enviar cambios al repositorio remoto
+```bash
+git push origin main
+```
+👉 Envía los commits locales a la rama `main` del repositorio remoto.
+
+### 🔹 Obtener cambios del repositorio remoto
+```bash
+git pull origin main
+```
+👉 Descarga y fusiona los cambios de la rama `main` remota.
+
+### 🔹 Clonar un repositorio con submódulos
+```bash
+git clone --recurse-submodules https://github.com/usuario/repositorio.git
+```
+👉 Clona un repositorio incluyendo sus submódulos.
+
+

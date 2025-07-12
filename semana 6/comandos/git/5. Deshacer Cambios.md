@@ -1,0 +1,29 @@
+
+---
+## 📌 **5. Deshacer Cambios**
+
+### 🔹 Descartar cambios en un archivo
+```bash
+git checkout -- archivo.txt
+```
+👉 Restaura `archivo.txt` al último estado confirmado.
+
+### 🔹 Restablecer el último commit pero conservar cambios
+```bash
+git reset --soft HEAD~1
+```
+👉 Deshace el último commit pero mantiene los archivos en staging.
+
+### 🔹 Restablecer el último commit y perder cambios
+```bash
+git reset --hard HEAD~1
+```
+👉 Borra el último commit y elimina los cambios.
+
+### 🔹 Revertir un commit específico
+```bash
+git revert abc123
+```
+👉 Crea un commit inverso al commit `abc123`.
+
+

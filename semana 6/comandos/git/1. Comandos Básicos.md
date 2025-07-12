@@ -1,0 +1,22 @@
+
+---
+## 📌 **1. Configuración Inicial**
+
+### 🔹 Configurar nombre y correo
+```bash
+git config --global user.name "Tu Nombre"
+git config --global user.email "tuemail@example.com"
+```
+👉 Define el nombre y correo que se usarán en los commits.
+
+### 🔹 Ver configuración actual
+```bash
+git config --list
+```
+👉 Muestra la configuración actual de Git.
+
+### 🔹 Definir el editor predeterminado
+```bash
+git config --global core.editor "vim"
+```
+👉 Configura Vim como el editor predeterminado para Git.

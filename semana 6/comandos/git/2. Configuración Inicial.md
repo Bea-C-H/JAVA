@@ -1,0 +1,45 @@
+
+---
+## 📌 **2. Comandos Básicos**
+
+### 🔹 Inicializar un repositorio Git
+```bash
+git init
+```
+👉 Crea un repositorio Git en el directorio actual.
+
+### 🔹 Clonar un repositorio existente
+```bash
+git clone https://github.com/usuario/repositorio.git
+```
+👉 Clona un repositorio remoto en tu máquina local.
+
+### 🔹 Ver estado del repositorio
+```bash
+git status
+```
+👉 Muestra archivos modificados, nuevos y pendientes de commit.
+
+### 🔹 Agregar archivos al área de preparación
+```bash
+git add archivo.txt
+```
+👉 Agrega `archivo.txt` al área de preparación.
+
+```bash
+git add .
+```
+👉 Agrega todos los archivos modificados y nuevos.
+
+### 🔹 Confirmar cambios (commit)
+```bash
+git commit -m "Mensaje del commit"
+```
+👉 Guarda los cambios en el repositorio con un mensaje descriptivo.
+
+### 🔹 Ver historial de commits
+```bash
+git log
+```
+👉 Muestra el historial de commits en orden cronológico.
+
